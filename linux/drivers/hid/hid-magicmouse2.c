@@ -834,7 +834,7 @@ static const struct hid_device_id magic_mice[] = {
 MODULE_DEVICE_TABLE(hid, magic_mice);
 
 static struct hid_driver magicmouse_driver = {
-	.name = "magicmouse",
+	.name = "magicmouse2",
 	.id_table = magic_mice,
 	.probe = magicmouse_probe,
 	.raw_event = magicmouse_raw_event,
